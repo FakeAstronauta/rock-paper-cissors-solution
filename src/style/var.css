@@ -1,0 +1,43 @@
+:root {
+    --dark-background: radial-gradient(circle, hsl(214, 47%, 23%) 10%, hsl(237, 49%, 15%) 60%);
+    --dark-text: hsl(229, 25%, 31%);
+    --score-text: hsl(229, 64%, 46%);
+    --soft-outline: hsl(217, 16%, 45%);
+
+    --orange-gradient: linear-gradient(0deg, hsl(39, 89%, 49%) 15%, hsl(40, 84%, 53%) 92%);
+    --cyan-gradient: linear-gradient(0deg, hsl(189, 59%, 53%) 15%, hsl(189, 58%, 57%) 92%);
+    --blue-gradient: linear-gradient(0deg, hsl(230, 89%, 62%) 15%, hsl(230, 89%, 65%) 92%);
+    --purple-gradient: linear-gradient(0deg, hsl(261, 73%, 60%) 15%, hsl(261, 72%, 63%) 92%);
+    --red-gradient: linear-gradient(0deg, hsl(349, 71%, 52%) 15%, hsl(349, 70%, 56%) 92%);
+
+    --dark-blue: hsl(237, 49%, 15%);
+
+    /* Fonts  */
+
+    --family: 'Barlow Semi Condensed', sans-serif;
+
+    /* font weight */
+    --regular: 600;
+    --bold: 700;
+
+    /* font sizes */
+    --modal-title-font-size: 2rem;
+    --letter-font-size: 1.43rem;
+    --number-font-size: 4rem;
+    --btn-font-size: 1.01rem;
+
+    --modal-title: var(--modal-title-font-size) var(--family);
+    --letter-font: var(--letter-font-size) var(--family);
+    --number-font: var(--number-font-size) var(--family);
+    --btn-font: var(--btn-font-size) var(--family);
+
+    --letter-font-size-m: 0.6rem;
+    --number-font-size-m: 2.44rem;
+    --btn-font-size-m: 0.6rem;
+    --play-font-size-m: 1.1rem;
+
+    --letter-font-m: var(--letter-font-size-m) var(--family);
+    --number-font-m: var(--number-font-size-m) var(--family);
+    --btn-font-m: var(--btn-font-size-m) var(--family);
+    --play-font-m: var(--play-font-size-m) var(--family);
+}
